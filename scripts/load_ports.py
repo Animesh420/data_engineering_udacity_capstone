@@ -676,4 +676,6 @@ for token in s.split('\n'):
 d['SPF'] = 'SD'
 d['SGR'] = 'TX'
 d['BLI'] = 'WA'
+import pandas as pd
+pd.Series(d).to_csv(r'/Users/ani/Desktop/learning/udacity/final_submission/data/arrival_port_map.csv')
 print('ok')
