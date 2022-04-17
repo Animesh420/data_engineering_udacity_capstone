@@ -1,0 +1,3 @@
+# Start pyspark notebook
+docker run -it -p 8808:8888 -v /Users/ani/Desktop/learning/udacity/final_submission:/home/jovyan/work  jupyter/pyspark-notebook start.sh jupyter notebook --NotebookApp.token=''
+

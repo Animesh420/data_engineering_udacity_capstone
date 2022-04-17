@@ -1,0 +1,4 @@
+spark_output_parquet/*
+.ipynb_checkpoints/*
+postgres_data/*
+data/*
